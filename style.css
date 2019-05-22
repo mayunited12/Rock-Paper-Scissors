@@ -1,0 +1,120 @@
+body{
+    padding: 60px;
+    background: #eaeaea;
+    color: #fff;
+}
+
+.left{
+    text-align: left;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+hr{
+    background: grey;
+    border: 0;
+    width: 100%;
+    height: 1px;
+}
+
+#parent{
+    display: flex;
+    flex-direction: column;
+}
+
+h1#intro{
+    text-align: center;
+    color: #000;
+}
+
+button#submitButton{
+    align-self: center;
+    padding: 30px 100px;
+    border-radius: 6px;
+    border: 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 22px;
+}
+
+div#sec-section{
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    color: #333;
+    padding: 40px;
+    width: 80%;
+    box-shadow: 0 0 25px grey;
+    border-radius: 6px;
+}
+
+div#sec-section p{
+    font-size: 18px;
+}
+
+div#sec-section p .label{
+    font-size: 18px;
+}
+
+
+#playerSelection,
+#computerSelection{
+    font-weight: bold;
+}
+
+#result{
+    font-weight: bold;
+    font-style: italic;
+    color: #fff;
+    padding: 7px;
+    border-radius: 6px;
+}
+
+#announceWinner{
+    text-align: center;
+    margin: 15px auto;
+    padding: 10px 100px;
+    color: #fff;
+    max-width: 45%;
+}
+
+div#third-section p{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+div#third-section{
+    align-self: center;
+    background: blueviolet;
+    color: #fff;
+    border-radius: 6px;
+    width: 50%;
+    padding: 20px;
+
+}
+
+#playerScore,
+#computerScore{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
