@@ -1,9 +1,3 @@
-if(!(document.getElementById("result").html = "f")){
-    document.getElementById("result").style.backgroundColor = "red";
-}else{
-    document.getElementById("result").style.backgroundColor = "blueviolet";
-}
-
 //Player and coputer scores at initial 0
 var computerScore = 0;
 var playerScore = 0;

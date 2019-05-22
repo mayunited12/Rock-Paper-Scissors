@@ -72,6 +72,7 @@ div#sec-section p .label{
 #result{
     font-weight: bold;
     font-style: italic;
+    background: blueviolet;
     color: #fff;
     padding: 7px;
     border-radius: 6px;
@@ -87,7 +88,6 @@ div#sec-section p .label{
 
 div#third-section p{
     font-size: 20px;
-    text-transform: uppercase;
 }
 
 div#third-section{
