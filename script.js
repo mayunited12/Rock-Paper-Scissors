@@ -1,7 +1,5 @@
-//Set backgorund of "Result of each round" output onload
-var checkResultBG = document.getElementById("result");
-if(checkResultBG.length != 0) {
-    document.getElementById("result").style.backgroundColor = "#fff";
+if(!(document.getElementById("result").html = "f")){
+    document.getElementById("result").style.backgroundColor = "red";
 }else{
     document.getElementById("result").style.backgroundColor = "blueviolet";
 }
